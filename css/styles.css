@@ -266,7 +266,6 @@ ul {
 }
 
 .section {
-    padding-top: 94px;
     padding-bottom: 94px;
 }
 .header-s-two {
@@ -345,6 +344,7 @@ ul {
 
 
 .p-button-list {
+    margin-bottom: 94px;
     display: flex;
     margin-left: 304px;
 }
@@ -356,7 +356,7 @@ ul {
 
 .portf-section {
     padding-top: 94px;
-    padding-bottom: 50px;
+    padding-bottom: 94px;
 }
 
 .button-port {
@@ -451,13 +451,12 @@ margin-right: 8px;
 
 
 .footer-style {
-
-    height: 251px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #2F303A;
 }
 
 .logo-link-f {
-    margin-top: 60px;
     color: var(--links-buttons-text-color);
         font-family: 'Raleway';
         font-weight: 700;
@@ -474,7 +473,8 @@ margin-right: 8px;
         letter-spacing: 0.03em;
 }
 .adress-style {
-    margin-top: 28px;
+   margin-top: 28px;
+   margin-bottom: 12px;
     color: #ffff;
         font-weight: 400;
         font-size: 14px;
@@ -482,8 +482,13 @@ margin-right: 8px;
         letter-spacing: 0.03em;
         text-decoration: none;
 }
+.mail-h-style {
+    margin-bottom: 12px;
+}
+
+
+
 .mail-link-f {
-    margin-top: 12px;
     color:  #FFFFFF99;
     font-style: normal;
         font-weight: 400;
